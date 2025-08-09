@@ -17,7 +17,7 @@
     NodeJs: ^22.16.0
     Npm: ^11.4.1
     
-### 💻 Client
+### 💻 API Client
     Postman: ^11.54.3
     Thunder Client ^2.37.2  (Extensão VsCode)
 

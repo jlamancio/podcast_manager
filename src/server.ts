@@ -1,6 +1,6 @@
 import * as http from "http";
 import * as dotenv from "dotenv";
-import {getListEpisodes} from "./controllers/podcasts_controller";
+import {getListEpisodes} from "./controllers/podcasts-controller";
 
 const server = http.createServer( async (req: http.IncomingMessage,
     res: http.ServerResponse) => {
@@ -8,12 +8,12 @@ const server = http.createServer( async (req: http.IncomingMessage,
             await getListEpisodes(req, res);
         }
     }
-);
+);                                                              
 
 dotenv.config();
 const port = process.env.PORT;
 
 server.listen(port, () =>{
-    console.log(`Servidor iniciado na porta ${port}`);
+    console.log(`Servidor iniciado na porta ${ port }`);
 });
 

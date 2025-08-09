@@ -12,11 +12,12 @@
 ### Funcionalidade(s):
 
     1 - Listar os episódios dos Podcasts em sessões por categorias
-        Saúde
-        Fitness
-        Mentalidade
-        Humor
-        Esporte
+       [ Saúde
+         Fitness
+         Mentalidade
+         Humor
+         Esporte
+       ]
 
     2 - Filtrar episódios por nome de Podcast
 
@@ -37,8 +38,6 @@
         podcastName: "Flow",
         episodeName: "CRUM - Flow #467",
         videoId: "TECEWo71Qjc",
-        coverImage: "https://i.ytimg.com/vi/TECEWo71Qjc/maxresdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAy-SnhfOi22wWCi77e7xh3tdYLew",
-        linkName: "https://www.youtube.com/watch?v=TECEWo71Qjc&t=21s";
         categories: ["saúde", "bodybuilder"]
     }
 
