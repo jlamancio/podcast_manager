@@ -46,6 +46,17 @@
     Filtrar episódios por nome de Podcast
 
 #### Como vou implementar:
+
+#### Como vou implementar:
+   GET: retorna lista de episódios baseado em um parametro enviado pelo cliente com o nome do podcast
+   
+       1- nome do podcast
+       2- nome do episódio
+       3- imagem da capa
+       4- link do podcast
+       5- categoria
+    response:
+
     Vou retornar em uma API Rest um arquivo (json) para que consiga alimentar um frontend as seguintes informações:
        1- nome do podcast
        2- nome do episódio
