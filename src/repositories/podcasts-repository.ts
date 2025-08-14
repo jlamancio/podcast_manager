@@ -12,12 +12,10 @@ Promise<podcastModel[]> =>
         let jsonFile = JSON.parse(rawData);
 
         if (podcastName){
-            jsonFile = jsonFile.filter((podcast: podcastModel) => podcast.podcastName === podcastName)
+            jsonFile = jsonFile.filter((podcast: podcastModel) => 
+                podcast.podcastName === podcastName);
 
         };
-
-        
-
 
         return jsonFile;
 };

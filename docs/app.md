@@ -45,7 +45,6 @@
 #### Funcionalidade: 
     Filtrar episódios por nome de Podcast
 
-#### Como vou implementar:
 
 #### Como vou implementar:
    GET: retorna lista de episódios baseado em um parametro enviado pelo cliente com o nome do podcast
