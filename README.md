@@ -2,6 +2,11 @@
 
 ## 🏗️Objetivo: 
     Criar um app ao estilo Netflix onde seja possível centralizar diferentes episódios de podcasts separados por categorias.
+
+***
+
+##    📌Observação:
+ Esta versão do projeto será criado sem a utilização de frameworks
 ***
 ## 🧱Domínio: 
     Podcasts em vídeo
