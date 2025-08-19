@@ -3,6 +3,7 @@ import { serviceListEpisodes } from "../services/list-episodes-services";
 import { serviceFilterEpisodes } from "../services/filter-episodes-services";
 import { StatusCode } from "../enums/status-codes";
 import { ContentType } from "../enums/content-type";
+import { FilterPodCastModel } from "../models/filter-podcast-model";
 
 
 export const getListEpisodes = async (req: IncomingMessage,res: ServerResponse) => {
@@ -16,10 +17,10 @@ export const getListEpisodes = async (req: IncomingMessage,res: ServerResponse) 
 
 export const getFilterEpisodes = async(req: IncomingMessage, res: ServerResponse) => {
 
-    const content  = await serviceFilterEpisodes(req.url);
+    const content: FilterPodCastModel  = await serviceFilterEpisodes(req.url);
 
-    res.writeHead(StatusCode.OK, {'content-type': ContentType.JSON});
+    res.writeHead(content.statusCode, {'content-type': ContentType.JSON});
     res.end(
-        JSON.stringify(content));
+        JSON.stringify(content.body));
 };
 
